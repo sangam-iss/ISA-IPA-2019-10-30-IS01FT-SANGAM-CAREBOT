@@ -100,7 +100,7 @@ def change_appointment_slot(from_date,to_date,token):
 
 def rpa_process(to_date,preferred_time,from_date,phone_number,token):
     t.init()
-    t.url("http://127.0.0.1:8000/change_input")
+    t.url("https://sangam-test-website.herokuapp.com/change_input")
     util.wait_for_pageload('//button[@id="btnsubmit"]')
 
     t.click('//input[@id="txtHandNo"]')

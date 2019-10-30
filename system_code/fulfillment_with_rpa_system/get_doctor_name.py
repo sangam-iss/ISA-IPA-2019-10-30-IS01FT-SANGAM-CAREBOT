@@ -99,7 +99,7 @@ def rpa_process(lmp_date,doctor_name,preferred_time,phone_number,patient_name,sy
         
         for index,i in enumerate(checkup_dates):
 
-            t.url("http://127.0.0.1:8000/")
+            t.url("https://sangam-test-website.herokuapp.com/")
             util.wait_for_pageload('//button[@id="btnsubmit"]')
 
             t.click('//input[@class="form-control"]')
@@ -129,7 +129,7 @@ def rpa_process(lmp_date,doctor_name,preferred_time,phone_number,patient_name,sy
             t.click('//button[@id="btnsubmit"]')
         
         t.close()
-        request_url = "http://127.0.0.1:8000/get_future_appointments?email="+str(email)
+        request_url = "https://sangam-test-website.herokuapp.com/get_future_appointments?email="+str(email)
         future_appointments = requests.get(request_url)
         book_calendar_slot(future_appointments.json()['data'],sub_id)
 

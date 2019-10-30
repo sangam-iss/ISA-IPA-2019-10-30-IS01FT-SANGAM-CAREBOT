@@ -13,7 +13,7 @@ class Get_future_appointments:
         print("Handling get_future_appointments intent")
         parsed_query = pf.DialogflowRequest(self.query)
         #phone_number = parsed_query.get_parameter('phone_number')
-        request_url = "http://127.0.0.1:8000/get_future_appointments?email="+str(email)
+        request_url = "https://sangam-test-website.herokuapp.com/get_future_appointments?email="+str(email)
 
         future_appointments = requests.get(request_url)
         print('Future appointments',future_appointments.json())

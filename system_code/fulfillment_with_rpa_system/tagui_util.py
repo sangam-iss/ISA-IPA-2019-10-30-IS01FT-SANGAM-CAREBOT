@@ -6,7 +6,7 @@ import tagui as t
 
 def wait_for_pageload(selector):
 	wait_status = 0
-	for loop_wait in range(1, 60):
+	for loop_wait in range(1, 300):
 		print(f"{loop_wait}. waiting for page to appear. wait for 1s...")
 		if t.present(selector):
 			wait_status = 1

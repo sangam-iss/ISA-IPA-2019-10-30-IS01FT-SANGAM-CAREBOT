@@ -13,7 +13,7 @@ class Get_failed_appointments:
         print("Handling get_failed_appointments intent")
         parsed_query = pf.DialogflowRequest(self.query)
         #phone_number = parsed_query.get_parameter('phone_number')
-        request_url = "http://127.0.0.1:8000/get_failed_appointments?email="+str(email)
+        request_url = "https://sangam-test-website.herokuapp.com/get_failed_appointments?email="+str(email)
 
         failed_appointments = requests.get(request_url)
         print('Failed appointments',failed_appointments.json())

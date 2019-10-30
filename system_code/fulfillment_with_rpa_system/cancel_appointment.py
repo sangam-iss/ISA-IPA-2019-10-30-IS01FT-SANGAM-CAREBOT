@@ -101,7 +101,7 @@ def cancel_appointment_slot(from_date,token):
 
 def rpa_process(from_date,phone_number,token):
     t.init()
-    t.url("http://127.0.0.1:8000/cancel_input")
+    t.url("https://sangam-test-website.herokuapp.com/cancel_input")
     util.wait_for_pageload('//button[@id="btnsubmit"]')
 
     t.click('//input[@id="txtHandNo"]')
