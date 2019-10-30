@@ -1,0 +1,1 @@
+web: gunicorn IPA.wsgi --log-file -

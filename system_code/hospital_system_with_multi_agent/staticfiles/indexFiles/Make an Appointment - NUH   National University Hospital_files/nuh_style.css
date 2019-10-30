@@ -1,0 +1,413 @@
+﻿@charset "utf-8";
+
+/* CSS Document */
+
+/* This CSS file consist of styles customised to this website only. */
+
+
+
+.box {
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+/* ======================== */
+
+/* Blue Container (Landing) */
+
+/* ======================== */
+
+.bluecontainer {
+    /*background-color: #1F3266;*/
+    background-color: #00a9e0;
+    color: #FFFFFF;
+}
+
+
+
+/* ----------------------- */
+
+/* Share icon (Share page) */
+
+/* ----------------------- */
+
+.shareiconbox {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+    .shareiconbox .item {
+        width: 20%;
+        float: left;
+        text-align: center;
+    }
+
+@media (min-width: 1024px) {
+
+    .shareiconbox .item {
+        width: auto;
+        padding: 0px 2%;
+    }
+
+        .shareiconbox .item:first-child {
+            padding-left: 0px;
+        }
+
+        .shareiconbox .item:last-child {
+            padding-right: 0px;
+        }
+}
+
+.shareiconbox .item .grey {
+    display: block;
+}
+
+.shareiconbox .item .blue {
+    display: none;
+}
+
+
+/* ----------------- */
+/* Fixes for CoreV15 */
+/* ----------------- */
+
+/*body {
+    overflow: auto
+}*/
+
+#pageStatusBar {
+    margin-bottom: 0px !important;
+}
+
+#s4-bodyContainer {
+    padding-bottom: 0px !important;
+}
+
+.hide-wc {
+    display: none
+}
+.ms-core-menu-box {
+    z-index: 1001 !important;
+}
+
+/*************************
+Forms CSS
+***********************/
+.form-horizontal .form-group {
+    margin-right: 0px;
+}
+
+label {
+    font-weight: normal !important;
+    font-size: 14px;
+}
+
+.form-horizontal {
+    display: table;
+    margin: 0 auto;
+}
+
+.form-group.required .control-label:after {
+    content: "*";
+    color: red;
+}
+
+
+/* ------------------------------------------------------------------------------------------------ */
+/* ========================= */
+/* About Us - Vision Mission */
+/* ========================= */
+.landing-content .row.valuesbox {
+    margin-right: -25px;
+}
+
+.cx-heading {
+    color: #0462A0;
+    padding: 0;
+}
+
+    .cx-heading a:focus, .cx-heading a:hover, .cx-heading a:visited {
+        color: #0462A0;
+    }
+
+    .cx-heading a {
+        color: #0462A0;
+        display: block;
+        padding: 15px 40px 15px 0px;
+        text-align: left;
+        font-weight: 400 !important;
+        height: auto;
+        line-height: 1.35em;
+        position: relative;
+    }
+
+        .cx-heading a:after {
+            content: "\f068";
+            float: right;
+            font-family: FontAwesome;
+            position: absolute;
+            right: 0;
+            top: 15px;
+            color: #1B3266;
+        }
+
+        .cx-heading a.collapsed:after {
+            content: "\f067";
+        }
+
+.cx-body {
+    padding: 15px 0 20px 0px;
+}
+
+.cx-heading h2 {
+    font-size: 1.25em;
+    margin: 0;
+}
+
+.cx-body h3 {
+    font-size: 1.25em;
+}
+
+.cx-body h4 {
+    font-size: 1.125em;
+}
+
+.cx-body h5 {
+    font-size: 1em;
+}
+
+.readmore a, .morelink a, a.readmore, a.morelink {
+    border: 1px solid #337AB7;
+    border-radius: 4px;
+    color: #337AB7;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: normal;
+    padding: 5px 10px;
+}
+
+/* ================ */
+/* Vision & Mission */
+/* ================ */
+.visionmissionvaluesbox .heading {
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #014284;
+}
+
+.visionmissionvaluesbox .shortdesc {
+    font-style: italic;
+    line-height: 24px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.visionmissionvaluesbox h3.shortdesc {
+    font-weight: 700;
+}
+
+.visionmissionvaluesbox .item {
+    margin-bottom: 40px;
+}
+
+@media (max-width: 991px) {
+    .visionmissionvaluesbox .item {
+        float: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .visionmissionvaluesbox .leftmargin {
+        margin-left: 30px;
+    }
+
+    .visionmissionvaluesbox .leftmargindouble {
+        margin-left: 60px;
+    }
+
+    .visionmissionvaluesbox .rightmargin {
+        margin-left: -30px;
+    }
+
+    .visionmissionvaluesbox .rightalign {
+        text-align: right;
+    }
+}
+
+/* Values */
+.valuesbox .item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: table;
+}
+
+    .valuesbox .item:nth-child(odd) {
+        padding-right: 5px;
+    }
+
+    .valuesbox .item:nth-child(even) {
+        padding-left: 5px;
+    }
+
+@media (max-width: 500px) {
+    .valuesbox .item {
+        width: 100%;
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+
+.valuesbox .box {
+    padding: 30px 8px 30px 8px;
+    color: #FFFFFF;
+    font-size: 18px;
+    height: 150px;
+    display: table-cell;
+    vertical-align: bottom;
+    position: relative;
+}
+
+    .valuesbox .box.center {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+.valuesbox .item:nth-child(1) .box {
+    background-color: #333333;
+}
+
+.valuesbox .item:nth-child(2) .box {
+    background-color: #014284;
+}
+
+.valuesbox .item:nth-child(3) .box {
+    background-color: #0072BB;
+}
+
+.valuesbox .item:nth-child(4) .box {
+    background-color: #1B8DD6;
+}
+
+.valuesbox .item:nth-child(5) .box {
+    background-color: #50AAE6;
+}
+
+.valuesbox .item:nth-child(6) .box {
+    background-color: #68ADD7;
+}
+
+.valuesbox .abbrev {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.valuesbox .big {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.valuesbox .word {
+    word-break: break-word;
+    letter-spacing: -0.2px;
+}
+
+.valuesbox .number {
+    position: absolute;
+    top: 8px;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+@media (min-width: 1367px) {
+    .valuesbox .big {
+        font-size: 55px;
+    }
+
+    .valuesbox .word {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 1366px) and (min-width: 992px) {
+    .valuesbox .big {
+        font-size: 3.6vw;
+    }
+
+    .valuesbox .word {
+        font-size: 1.8vw;
+    }
+}
+
+@media (max-width: 991px) {
+    .valuesbox .big {
+        font-size: 40px;
+    }
+
+    .valuesbox .word {
+        font-size: 24px;
+    }
+}
+
+/* ================ */
+/* Vision & Mission */
+/* ================ */
+.banner-joinus {
+    border: 1px solid #CCCCCC;
+    display: table;
+    width: 100%;
+}
+
+    .banner-joinus .left-col {
+        display: table-cell;
+        float: none;
+        padding: 0;
+    }
+
+        .banner-joinus .left-col img {
+            max-width: 100%;
+        }
+
+    .banner-joinus .right-col {
+        display: table-cell;
+        float: none;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .banner-joinus .more {
+        margin: 0;
+        padding: 0;
+    }
+
+        .banner-joinus .more a {
+            border: 1px solid #337AB7;
+            border-radius: 4px;
+            color: #337AB7;
+            font-size: 14px;
+            font-weight: 500;
+            padding: 5px 10px;
+        }
+
+            .banner-joinus .more a:hover {
+                border: 1px solid #D7340B;
+                color: #D7340B;
+            }
+
+@media (max-width:767px) {
+    .banner-joinus .left-col {
+        display: block;
+    }
+
+    .banner-joinus .right-col {
+        display: block;
+        padding: 20px;
+    }
+}
+
