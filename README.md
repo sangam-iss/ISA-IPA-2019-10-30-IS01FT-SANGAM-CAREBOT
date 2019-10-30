@@ -4,19 +4,19 @@
 
 # **Executive Summary:**
 
-Expert Systems are a combination of computer programming and data to imitate human expertise in narrow business domains. According to Wikipedia, _in artificial intelligence, an expert system is a computer system that emulates the decision-making ability of a human expert_. Expert systems are designed to solve complex problems by reasoning through bodies of knowledge, represented mainly as if–then rules rather than through conventional procedural code. The error rate of a successful expert system is low, sometimes much lower than the human error rate for the same task. They are very good in capturing very complex patterns which cannot be captured by data mining. We have identified the necessity of building an expert system to recommend places and attractions to Singapore Tourists.
+According to Singapore's Department of Statistics (SingStat),Singapore's total pregnancies accounted a total of 39,039 births in 2018. Childbirth typically occurs around 40 weeks from the start of the last menstrual period (LMP). Knowing when to have check-ups, what nutrients to have, when and how much exercise is required etc. during pregnancy is important for every pregnant woman.
 
-Tourism is one of the fastest growing sectors in Singapore. According to 2018 Q4 report of Singapore Tourism Board, tourism sector achieved record highs in International Visitor Arrivals and Tourism receipts for the third year consecutively. Around 18.5 million visitors visited Singapore in 2018 and it accounted for Tourism Receipts of S$26.9 billion.m
+Pregnant women should mandatorily schedule appointments with a midwife or a doctor (Gynaecologist and Obstetrician) in a specific hospital or clinic as per their preference and ease of access.
 
-Due to the rapid growth of this sector, tourists can easily be overwhelmed with the options they have. In order to facilitate further growth in this sector and help the tourists, we have developed an expert system application which can recommend attractions to tourists based on their interests. In addition to that it also provides an optimized tour itinerary based on user interests.
+The primary aim of the project is to manage the check-up appointments for the user using Robotic Process Automation (RPA). We have automated the process which schedules doctor appointments as per ACOG guidelines automatically with respect to LMP of the user. We have integrated the process with a chatbot for a seamless user interface. The chatbot also assists the pregnant women with answers for their doubts and queries.
 
 # **Project Individual Contribution:**
 
 | Name | Student Number | Contribution | Email |
 | --- | --- | --- | --- |
-| Santhosh Kumar Mohan | A0198528L | Brainstorming, Design, OptaPlanner Implementation, SpringBoot Implementation, Testing, Google Map API | [santhoshmohan@u.nus.edu](mailto:santhoshmohan@u.nus.edu) |
-| Gautham Balasubramanian | A0198479B | Brainstorming, Design, CLIPS programming, Django web application development using BootStrap, Integration of different parts | [gautham@u.nus.edu](mailto:gautham@u.nus.edu) |
-| Mercedes Premalatha Ramesh | A0198411A | Brainstorming, CLIPS design, Distance Matrix Generation, Data Collection, Data Cleaning, Testing, Documentation, Video Preparation | [mercedes@u.nus.edu](mailto:mercedes@u.nus.edu) |
+| Santhosh Kumar Mohan | A0198528L | Brainstorming, Design, Architecture, Google Authentication Implementaion, Multi-Agent Calendar management system, Testing, Project Report | [santhoshmohan@u.nus.edu](mailto:santhoshmohan@u.nus.edu) |
+| Gautham Balasubramanian | A0198479B | Brainstorming, Design, Architecture, Hospital website mock-up, Database integration, Dialogflow chatbot, Dynamic fulfillment using Flask, Testing, Project Report | [gautham@u.nus.edu](mailto:gautham@u.nus.edu) |
+| Mercedes Premalatha Ramesh | A0198411A | Brainstorming, Design, Architecture, Expert Interview, Market Research, RPA Development, RPA Integration, Dialogflow knowledgebase integration, Testing, Project Report, Marketing Video Preparation | [mercedes@u.nus.edu](mailto:mercedes@u.nus.edu) |
 
 # **Video Presentation**
 
