@@ -23,13 +23,7 @@ The primary aim of the project is to manage the check-up appointments for the us
 
 Please refer to the below URL for Video Report.
 
-[Video Report](https://www.youtube.com/watch?v=V83cjGRl7YQ&feature=youtu.be)
-
-# **User Installation Guide**
-
-Please refer to the below URL for the User Installation Guide.
-
-[Installation Guide](https://github.com/sangam-iss/iss-mrrs/blob/master/Project%20Report/installation_guide.pdf)
+[![Video Report](https://j.gifs.com/P7W2Ay.gif)](https://www.youtube.com/watch?v=V83cjGRl7YQ&feature=youtu.be)
 
 
 # **Project Report**
