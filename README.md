@@ -1,6 +1,7 @@
 # **Project Title**
 
-**Itinerary Planner - Personalised Travel Strategist**
+**CareBot**
+*a companian you deserve!*
 
 # **Executive Summary:**
 
@@ -22,7 +23,7 @@ The primary aim of the project is to manage the check-up appointments for the us
 
 Please refer to the below URL for Video Report.
 
-[Video Report](https://www.youtube.com/watch?v=fSansDYfthE)
+[Video Report](https://www.youtube.com/watch?v=V83cjGRl7YQ&feature=youtu.be)
 
 # **User Installation Guide**
 
