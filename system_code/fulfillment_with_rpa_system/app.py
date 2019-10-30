@@ -45,7 +45,7 @@ def welcomeIntent(request):
                     isUserVerified = True
                     idToken = userVerificationStatus
     if isUserVerified is False:
-        data = "Hi! To serve you better we need access to some of your information. Do you want to proceed?"
+        data = "Hi! Welcome to CareBot. To serve you better, we need access to some of your information. Do you want to proceed?"
         dialogflow_response.add(pf.SimpleResponse(data,data))
     else:
         
