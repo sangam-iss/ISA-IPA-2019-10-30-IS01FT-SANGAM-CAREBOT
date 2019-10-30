@@ -45,7 +45,7 @@ def welcomeIntent(request):
                     isUserVerified = True
                     idToken = userVerificationStatus
     if isUserVerified is False:
-        data = "Hi! To serve you better we need access to some of your information. Do you want to proceed?"
+        data = "Hi! Welcome to CareBot. To serve you better, we need access to some of your information. Do you want to proceed?"
         dialogflow_response.add(pf.SimpleResponse(data,data))
     else:
         
@@ -130,13 +130,16 @@ def store_auth_code():
 def intent_resolver():
     req = request.get_json()
     originalDetectIntentRequest = req.get('originalDetectIntentRequest',None)
+    idToken = None
+    email = None
     if originalDetectIntentRequest is not None:
         payload = originalDetectIntentRequest.get('payload',None)
         if payload is not None:
             user = payload.get('user',None)
             if user is not None:
                 idToken = user.get('idToken',None)
-    email = decode_jwt_token(idToken)
+    if idToken is not None:
+        email = decode_jwt_token(idToken)
     print("\n\n")
     print(req)
     print("\n\n")
