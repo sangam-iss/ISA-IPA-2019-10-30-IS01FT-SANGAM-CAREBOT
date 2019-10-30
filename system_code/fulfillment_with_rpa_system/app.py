@@ -130,6 +130,7 @@ def store_auth_code():
 def intent_resolver():
     req = request.get_json()
     originalDetectIntentRequest = req.get('originalDetectIntentRequest',None)
+    idToken = None
     email = None
     if originalDetectIntentRequest is not None:
         payload = originalDetectIntentRequest.get('payload',None)
@@ -137,7 +138,8 @@ def intent_resolver():
             user = payload.get('user',None)
             if user is not None:
                 idToken = user.get('idToken',None)
-                email = decode_jwt_token(idToken)
+    if idToken is not None:
+        email = decode_jwt_token(idToken)
     print("\n\n")
     print(req)
     print("\n\n")
