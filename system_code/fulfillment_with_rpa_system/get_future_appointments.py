@@ -34,6 +34,8 @@ class Get_future_appointments:
             return aog.get_final_response()
 
         response_message = "These are your upcoming appointments\n"
+        if len(cards) > 5:
+            cards = cards[0:5]
         for card in cards:
             response_message = response_message + "\n------------------------------- \nAppointment Date : "+ str(card['date'])
             response_message = response_message + "\nDoctor : "+ str(card['doctor_name'])
