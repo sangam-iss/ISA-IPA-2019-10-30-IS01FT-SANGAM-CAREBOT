@@ -30,4 +30,4 @@ Please refer to the below URL for Video Report.
 
 Please download the Project Report from below URL.
 
-[Project Report](https://github.com/sangam-iss/iss-mrrs/blob/master/Project%20Report/Project%20Report.pdf)
+[Project Report](https://github.com/sangam-iss/ISA-IPA-2019-10-30-IS01FT-SANGAM-CAREBOT/blob/master/project_report/Project%20Report.pdf)
